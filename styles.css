@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+body.pagina-principal {
+    display: block;
+    height: 100vh;
+    padding: 0;
+}
+
+
+/* PAGINA PRINCIPAL*/
+
+
+.contenedor-pagina-principal {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    
+}
+
+/*Pagina Izquierda*/
+.page-left {
+    background-color: #F9E4D4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 16px;
+}
+
+.page-left h1 {
+    color: #FFB3B3;
+    font-size: 64px;
+    text-align: center;
+    width: min-content;
+}
+
+.page-left button {
+    background-color: #A6E1FA;
+    font-size: 16px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+}
+
+/*Pagina Derecha*/
+.page-right {
+    background-image: url(recipe_images/pagina-principal-imagenes/d4aea9784bb17facf535f422d7251776.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: auto
+}
+
+
+/* PAGINA SECUNDARIA*/
+
+
+body.pagina-secundaria {
+    background-color: #F9E4D4;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+    gap: 32px;
+    margin: 64px;
+    height: 100vh;
+    padding: 16px;
+    align-items: center; 
+}
+
+.pagina-secundaria h1 {
+    color: #FFB3B3; 
+    font-size: 128px;
+    width: min-content;
+    height: min-content;
+}
+
+.pagina-secundaria button {
+    background-color: #D1F7C4;
+    font-size: 24px;
+    width: 150px;
+    height: 50px;
+}
+
+/*Contenedor Lista*/
+
+.contenedor-pagina-secundaria {
+    display: grid;
+    box-sizing: border-box;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 95%;
+    height: auto;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    
+}
+
+.card-recipe{
+    background-color: #FFD9A6;
+    border-radius: 16px;
+    display: flex;
+    position: relative;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    gap: 16px;
+    padding: 16px;
+    
+}
+
+.contenedor-pagina-secundaria img {
+    border-radius: 16px;
+}
+
+.contenedor-pagina-secundaria a {
+    align-self: stretch;
+    color: #976dad;
+}
+
+
+/*PAGINAS DE RECETAS*/
+
+
+
+body.paginas-recetas {
+    background-color: #F9E4D4;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    height: auto;
+    gap: 32px;
+    padding: 32px;
+}
+
+.paginas-recetas h1 {
+    color: #FFB3B3;
+    font-size: 64px;
+}
+
+.paginas-recetas h2,
+h3 {
+    color: #c98080;
+    font-size: 32px;
+    align-self: normal;
+    width: 90%;
+    margin-left: 64px;
+}
+
+ul, 
+ol,
+p { 
+    color: rgba(0, 0, 0, 0.699);
+    width: 90%;
+    height: min-content;
+    margin-left: 64px;
+    
+}
+
